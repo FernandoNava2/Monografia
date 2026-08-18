@@ -1,0 +1,21 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;/*Tipo de Letra*/
+    background-color: #000000ec; /*Color de fondo*/
+    color:rgb(64, 134, 161); /*Color de texto*/
+    margin: 20; /*Elimina el margen predeterminado*/
+    padding: 20px; /*Elimina el relleno predeterminado*/
+}
+
+.footer {
+width: 100%; 
+}
+
+.contacto{
+width: 100%;
+display: block;
+}
+
+.card-img-top {
+  height: 1200px; /* Ajusta la altura deseada */
+  object-fit: cover; /* Recorta la imagen limpiamente para llenar el espacio */
+}

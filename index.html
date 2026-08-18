@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>El mundo de la guitarra</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+</head>
+<body> <!--?Contiene todo el contenido que veremos directamente en la pagina-->
+
+    <!--?Barra de navegacion-->
+    <nav class="navbar navbar-dark bg-dark fixed-top">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">EL MUNDO DE LA GUITARRA</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">ENLACES DIRECTOS</h5>
+        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body">
+        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">HOME</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://intl.fender.com/">FENDER</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://www.gibson.com/es">GIBSON</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              CONOCENOS
+            </a>
+            <ul class="dropdown-menu dropdown-menu-dark">
+              <li><a class="dropdown-item" href="#">Buy</a></li>
+              <li><a class="dropdown-item" href="#">Support</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="#">Exit</a></li>
+            </ul>
+          </li>
+        </ul>
+        <form class="d-flex mt-3" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
+          <button class="btn btn-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<!--?Carrusel de imagenes-->
+<div id="carouselExampleRide" class="carousel slide" data-bs-ride="true">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="/assets/guitar1.jpg" class="d-block w-100" alt="guitar1">
+    </div>
+    <div class="carousel-item">
+      <img src="/assets/guitar2.jpg" class="d-block w-100" alt="guitar2">
+    </div>
+    <div class="carousel-item">
+      <img src="/assets/guitar3.jpg" class="d-block w-100" alt="guitar3">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleRide" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleRide" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+<br>
+
+<!--?Cards 1-->
+<div class="row row-cols-1 row-cols-md-2 g-4">
+  <div class="col">
+    <div class="card">
+      <img src="/assets/stratocaster.jpg" class="card-img-top" alt="strato">
+      <div class="card-body">
+        <h5 class="card-title">STRATOCASTER</h5>
+        <p class="card-text">La Stratocaster es una guitarra eléctrica fabricada por Fender y presentada en 1954. Se caracteriza por tener un cuerpo sólido, tres pastillas de tipo single-coil, un selector de cinco posiciones y un sistema de vibrato. Su sonido es brillante, claro y versátil, por lo que se utiliza en géneros como rock, blues, pop, funk e indie.</p>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="col">
+    <div class="card">
+      <img src="/assets/telecaster.jpg" class="card-img-top" alt="telecaster">
+      <div class="card-body">
+        <h5 class="card-title">TELECASTER</h5>
+        <p class="card-text">La Telecaster es una guitarra eléctrica fabricada por Fender y presentada en 1950. Se caracteriza por su diseño sencillo, dos pastillas single-coil y un sonido brillante, definido y con bastante ataque. Es muy utilizada en rock, country, blues, pop y música alternativa.</p>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="col">
+    <div class="card">
+      <img src="/assets/sg.jpg" class="card-img-top" alt="sg">
+      <div class="card-body">
+        <h5 class="card-title">Les Paul</h5>
+        <p class="card-text">La Les Paul es una guitarra eléctrica desarrollada por Gibson y presentada en 1952. Tiene un cuerpo sólido, dos pastillas humbucker y un sonido potente, cálido y con mucho sustain. Es muy utilizada en rock, blues, hard rock y metal.</p>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="col">
+    <div class="card">
+      <img src="/assets/lespaul.jpg" class="card-img-top" alt="lespaul">
+      <div class="card-body">
+        <h5 class="card-title">SG</h5>
+        <p class="card-text">La SG es una guitarra eléctrica fabricada por Gibson desde 1961. Se caracteriza por su cuerpo delgado y ligero, sus dos pastillas humbucker y su sonido potente y agresivo. Es especialmente popular en rock y hard rock.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<br>
+
+<!--?Cards 2-->
+
+<div class="row row-cols-1 row-cols-md-2 g-4">
+  <div class="col">
+    <div class="card">
+      <img src="/assets/semi.jpg" class="card-img-top" alt="semi">
+      <div class="card-body">
+        <h5 class="card-title">Semi Hollow</h5>
+        <p class="card-text">La guitarra semi-hollow tiene un cuerpo parcialmente hueco y generalmente cuenta con pastillas humbucker. Produce un sonido cálido, resonante y con buena definición. Es común en blues, jazz, rock, indie y pop.</p>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="col">
+    <div class="card">
+      <img src="/assets/acustica.jpg" class="card-img-top" alt="Acustica">
+      <div class="card-body">
+        <h5 class="card-title">Acustica</h5>
+        <p class="card-text">La guitarra acústica produce sonido mediante la vibración de sus cuerdas y la resonancia de su caja. No necesita amplificador para sonar y suele utilizarse en géneros como folk, pop, rock, country y baladas.</p>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="col">
+    <div class="card">
+      <img src="/assets/z.jpg" class="card-img-top" alt="z">
+      <div class="card-body">
+        <h5 class="card-title">Z</h5>
+        <p class="card-text">El modelo Z es una guitarra eléctrica de diseño particular que puede variar según el fabricante. Generalmente se caracteriza por una forma de cuerpo llamativa y un enfoque orientado a sonidos de rock y géneros alternativos. Su diseño y características dependen de la marca y del modelo específico.</p>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="col">
+    <div class="card">
+      <img src="/assets/jaguar.jpg" class="card-img-top" alt="jaguar">
+      <div class="card-body">
+        <h5 class="card-title">Jaguar</h5>
+        <p class="card-text">La Jaguar es una guitarra eléctrica de Fender presentada en 1962. Tiene un sonido brillante y versátil, además de varios controles y configuraciones de pastillas. Es especialmente asociada con el surf rock, indie, rock alternativo y música experimental.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<br>
+
+<!--?Cards 3-->
+
+<div class="row row-cols-1 row-cols-md-2 g-4">
+  <div class="col">
+    <div class="card">
+      <img src="/assets/bas.jpg" class="card-img-top" alt="bass">
+      <div class="card-body">
+        <h5 class="card-title">Bass</h5>
+        <p class="card-text">El bajo eléctrico es un instrumento de cuerda encargado principalmente de proporcionar las notas graves y la base rítmica de una banda. Normalmente tiene cuatro cuerdas y se utiliza en prácticamente todos los géneros de música popular.</p>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="col">
+    <div class="card">
+      <img src="/assets/ukulele.jpg" class="card-img-top" alt="ukulele">
+      <div class="card-body">
+        <h5 class="card-title">Ukulele</h5>
+        <p class="card-text">El ukulele es un instrumento de cuerda pequeño originario de Hawái. Generalmente tiene cuatro cuerdas y produce un sonido agudo, alegre y característico. Se utiliza principalmente en música hawaiana, pop, folk y acompañamientos acústicos.</p>
+      </div>
+    </div>
+</div>
+</div></body>
+<br><br>
+
+<!--?Contactanos-->
+<br>
+
+<button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasBottom" aria-controls="offcanvasBottom">Contactanos</button>
+
+<div class="offcanvas offcanvas-bottom" tabindex="-1" id="offcanvasBottom" aria-labelledby="offcanvasBottomLabel">
+  <div class="offcanvas-header">
+    <h5 class="offcanvas-title" id="offcanvasBottomLabel">Contactanos</h5>
+    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  <div class="offcanvas-body small">
+    ...
+  </div>
+</div>
+<br>
+
+<!--?Formulario de contacto-->
+
+<div class="form-floating mb-3 contacto">
+  <input type="email" class="form-control" id="floatingInputDisabled" placeholder="name@example.com" disabled>
+  <label for="floatingInputDisabled">Correo</label>
+</div>
+<div class="form-floating mb-3">
+  <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextareaDisabled" disabled></textarea>
+  <label for="floatingTextareaDisabled">Asunto</label>
+</div>
+<div class="form-floating mb-3">
+  <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2Disabled" style="height: 100px" disabled>🎸Respeta a la comunidad de la guitarra🎸</textarea>
+  <label for="floatingTextarea2Disabled">Comentario</label>
+</div>
+
+
+<!--?Footer-->
+<footer class="bg-dark text-white mt-5 py-4">
+    <div class="container">
+        <div class="row">
+            <!--? Nombre -->
+            <div class="col-md-4 mb-3">
+                <h5>El mundo de la guitarra🎸​</h5>
+                
+            </div>
+            <!--? Enlaces -->
+            <div class="col-md-4 mb-3">
+                <h5>Explora</h5>
+                <ul class="list-unstyled">
+                    <li><a href="#" class="text-white text-decoration-none">Inicio</a></li>
+                    <li><a href="#" class="text-white text-decoration-none">Menú</a></li>
+                    <li><a href="#" class="text-white text-decoration-none">Nosotros</a></li>
+                </ul>
+            </div>
+            <!--?Redes sociales -->
+            <div class="col-md-4 mb-3">
+                <h5>Síguenos</h5>
+                <p>📷 Instagram: Mundo_de_la_Guitarra</p>
+                <p>📘 Facebook: El mundo de la guitarra</p>
+                <p>🎵 TikTok: @Mundodeguitarra</p>
+            </div>
+        </div>
+        <hr>
+        <div class="text-center">
+            <p class="mb-0">
+                © 2026 El mundo de la guitarra | Diseñado por Fernando Nava
+            </p>
+        </div>
+    </div>
+</footer>
+
+<link rel="stylesheet" href="styles.css"> <!-- Enlace al archivo de estilos -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+
+</html>
